@@ -24,7 +24,3 @@ Here are a few of my recent projects:
 
 2. [College Website](https://github.com/PREMRAJESH/college-website)
 
-
-## License
-
-This portfolio is licensed under the [MIT License](LICENSE.txt).
