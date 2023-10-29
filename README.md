@@ -12,7 +12,7 @@ I'm a last year diploma student with a passion for technology and a keen interes
 
 Connect with me on social media:
 
-[![Instagram](https://img.shields.io/badge/Instagram-prem_sargara-C13584?style=for-the-badge&logo=instagram&logoColor=blue)](https://www.instagram.com/_prem_sargara)
+[![Instagram](https://img.shields.io/badge/Instagram-prem_sargara-C13584?style=for-the-badge&logo=instagram&logoColor=pink)](https://www.instagram.com/_prem_sargara)
 [![LinkedIn](https://img.shields.io/badge/prem_sargara-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prem-sargara)
 [![Facebook](https://img.shields.io/badge/Facebook-Prem_Sargara-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/prem.sargara.902)
 
