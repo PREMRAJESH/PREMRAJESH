@@ -1,7 +1,7 @@
 
 ## About Me
 
-I'm a last year diploma student with a passion for technology and a keen interest in AI, machine learning, web development, and network security.
+I'm a second year computer engineering student with a passion for technology and a keen interest in AI, machine learning, web development, and network security.
 
 ## Skills
 
