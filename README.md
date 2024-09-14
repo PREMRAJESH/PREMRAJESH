@@ -29,3 +29,4 @@ Here are a few of my recent projects:
 
 2. [College Website](https://github.com/PREMRAJESH/college-website)
 
+![Profile Views](https://komarev.com/ghpvc/?username=PREMRAJESH&color=blue)
