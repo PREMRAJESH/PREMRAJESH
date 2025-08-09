@@ -13,7 +13,7 @@
 
 | Project | Description |
 |--------|-------------|
-| 💬 [**CollegeChatApp**](https://github.com/PREMRAJESH/college-chat-app) | _End-to-end encrypted messaging with firebase, emojis, media preview & more_ |
+| 💬 [**RealTimeChatApp**](https://github.com/PREMRAJESH/RTCA.git) | _End-to-end encrypted messaging with firebase, emojis, media preview & more_ |
 
 ---
 
