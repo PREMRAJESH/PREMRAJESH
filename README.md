@@ -1,32 +1,89 @@
+<!-- GitHub Profile README -->
 
-## About Me
+<h1 align="center">Hey there 👋, I'm Prem — A Developer in Progress 🚀</h1>
+<h3 align="center">🎓 CS Undergrad | 📈 FAANG Aspirant | 🧠 Learning, Building, Conquering</h3>
 
-I'm a second year computer engineering student with a passion for technology and a keen interest in AI, machine learning, web development, and network security.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Code.+Debug.+Deploy.;Full-Stack+%2B+AI+Developer;React+Native%2C+DevOps%2C+ML+Explorer;Hackathons+%7C+GSoC+Prep+%7C+Open+Source!" alt="Typing SVG" />
+</p>
 
-## Skills
+---
 
- ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
- ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
- ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-[![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apache-cassandra&logoColor=white)](https://cassandra.apache.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
-[![EJS](https://img.shields.io/badge/EJS-2B2E4A?style=for-the-badge&logo=ejs&logoColor=white)](https://ejs.co/)
+### 🚀 Highlight Projects
 
-## Social Media
+| Project | Description |
+|--------|-------------|
+| 💬 [**CollegeChatApp**](https://github.com/PREMRAJESH/college-chat-app) | _End-to-end encrypted messaging with firebase, emojis, media preview & more_ |
 
-Connect with me on social media:
+---
 
-[![Instagram](https://img.shields.io/badge/Instagram-prem_sargara-C13584?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_prem_sargara)
-[![LinkedIn](https://img.shields.io/badge/prem_sargara-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prem-sargara)
-[![Facebook](https://img.shields.io/badge/Facebook-Prem_Sargara-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/prem.sargara.902)
+### 🧰 Tech Stack
 
-## Projects
+#### 🖥️ Languages
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="35" />
+</p>
 
-Here are a few of my recent projects:
+#### ⚙️ Backend & Databases
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="35" />
+</p>
 
-1. [Medicarehub](https://github.com/PREMRAJESH/MediCareHub)
+#### 🎨 Frontend & Tools
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="35" />
+</p>
 
-2. [College Website](https://github.com/PREMRAJESH/college-website)
+---
 
-![Profile Views](https://komarev.com/ghpvc/?username=PREMRAJESH&color=blue)
+### 🧠 Currently Learning & Building
+
+- ⚡ GSoC & Open Source Prep (DevTools + ML Focused)
+- 🧵 Real-time apps with WebSockets & Firestore
+- 🧠 Integrating AI with DevOps Workflows
+- 🎨 Frontend Aesthetics using TailwindCSS + Framer Motion
+- 🧩 Logic-based mini-games & hidden riddles in projects 😉
+
+---
+
+### 📊 LeetCode Progress
+
+[![LeetCode card](https://leetcard.jacoblin.cool/Sargara_Prem?theme=dark&font=Karla)](https://leetcode.com/Sargara_Prem)
+
+---
+
+### 📈 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=PREMRAJESH&show_icons=true&theme=radical&hide_border=true" width="45%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PREMRAJESH&theme=radical&hide_border=true" width="45%" />
+</p>
+
+---
+
+
+### 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/prem-sargara-4a802723a/)  
+[![Email](https://img.shields.io/badge/Gmail-grey?logo=gmail&style=for-the-badge)](mailto:work.sargaraprem@gmail.com)  
+
+---
+
+<p align="center"><b>⭐ Thanks for visiting! Let’s build something worthy 💻⚡</b></p>
