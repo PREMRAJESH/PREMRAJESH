@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a2332&height=220&section=header&text=Prem%20Sargara&fontSize=72&fontColor=58A6FF&fontAlignY=40&fontAlign=50&desc=Final%20Year%20CS%20Student%20%E2%80%A2%20Full-Stack%20%2B%20AI%20Developer%20%E2%80%A2%20FAANG%20Aspirant&descAlignY=62&descSize=15&descColor=8b949e&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a2332&height=220&section=header&text=Prem%20Sargara&fontSize=72&fontColor=58A6FF&fontAlignY=40&fontAlign=50&desc=Final%20Year%20CS%20Student%20%E2%80%A2%20Full-Stack%20%2B%20AI%20Developer%20%E2%80%A2%20MAANG%20Aspirant&descAlignY=62&descSize=15&descColor=8b949e&animation=fadeIn" />
 
 <br/>
 
@@ -38,7 +38,7 @@
 
 Final year Computer Science student based in India, focused on building full-stack and AI-powered products that solve real problems. I enjoy working across the entire stack — from designing clean interfaces to architecting backend systems and integrating machine learning workflows.
 
-Currently preparing for GSoC, exploring open source contributions, and grinding toward FAANG-level engineering roles. I care about writing good code, shipping fast, and continuously improving.
+Currently preparing for GSoC, exploring open source contributions, and grinding toward MAANG-level engineering roles. I care about writing good code, shipping fast, and continuously improving.
 
 - 🎓 &nbsp;B.Tech in Computer Science — Final Year
 - 📍 &nbsp;India
@@ -201,7 +201,7 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 |------|----------------|
 | 🤖 **AI × DevOps** | Integrating LLMs into real developer workflows |
 | 📡 **Real-time Systems** | Deep-diving WebSockets, Firestore & live apps |
-| 🏗️ **System Design** | Studying HLD/LLD for FAANG-level interviews |
+| 🏗️ **System Design** | Studying HLD/LLD for MAANG-level interviews |
 | 🌍 **Open Source** | GSoC prep — exploring DevTools & ML projects |
 | 🏆 **DSA** | Daily LeetCode + Codeforces grinding |
 
