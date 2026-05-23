@@ -1,89 +1,216 @@
-<!-- GitHub Profile README -->
+<div align="center">
 
-<h1 align="center">Hey there 👋, I'm Prem — A Developer in Progress 🚀</h1>
-<h3 align="center">🎓 CS Undergrad | 📈 FAANG Aspirant | 🧠 Learning, Building, Conquering</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a2332&height=220&section=header&text=Prem%20Sargara&fontSize=72&fontColor=58A6FF&fontAlignY=40&fontAlign=50&desc=Final%20Year%20CS%20Student%20%E2%80%A2%20Full-Stack%20%2B%20AI%20Developer%20%E2%80%A2%20FAANG%20Aspirant&descAlignY=62&descSize=15&descColor=8b949e&animation=fadeIn" />
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Code.+Debug.+Deploy.;Full-Stack+%2B+AI+Developer;React+Native%2C+DevOps%2C+ML+Explorer;Hackathons+%7C+GSoC+Prep+%7C+Open+Source!" alt="Typing SVG" />
-</p>
+<br/>
 
----
+<a href="https://www.linkedin.com/in/prem-sargara-4a802723a/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:work.sargaraprem@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://leetcode.com/u/Sargara_Prem/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" />
+</a>
+&nbsp;
+<a href="https://prs-os-git-main-premrajeshs-projects.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
 
-### 🚀 Highlight Projects
+<br/><br/>
 
-| Project | Description |
-|--------|-------------|
-| 💬 [**RealTimeChatApp**](https://github.com/PREMRAJESH/RTCA.git) | _End-to-end encrypted messaging with firebase, emojis, media preview & more_ |
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=520&lines=Building+AI-powered+products+that+ship...;Next.js+%7C+Supabase+%7C+Firebase+%7C+Gemini+AI;Open+Source+%7C+GSoC+Prep+%7C+DevOps+Explorer;Turning+ideas+into+deployable+reality." />
 
----
+<br/>
 
-### 🧰 Tech Stack
+![Profile Views](https://komarev.com/ghpvc/?username=PREMRAJESH&color=58A6FF&style=flat-square&label=Profile+Views)
 
-#### 🖥️ Languages
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="35" />
-</p>
+</div>
 
-#### ⚙️ Backend & Databases
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="35" />
-</p>
-
-#### 🎨 Frontend & Tools
-<p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="35" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="35" />
-</p>
+<br/>
 
 ---
 
-### 🧠 Currently Learning & Building
+## 👨‍💻 About Me
 
-- ⚡ GSoC & Open Source Prep (DevTools + ML Focused)
-- 🧵 Real-time apps with WebSockets & Firestore
-- 🧠 Integrating AI with DevOps Workflows
-- 🎨 Frontend Aesthetics using TailwindCSS + Framer Motion
-- 🧩 Logic-based mini-games & hidden riddles in projects 😉
+Final year Computer Science student based in India, focused on building full-stack and AI-powered products that solve real problems. I enjoy working across the entire stack — from designing clean interfaces to architecting backend systems and integrating machine learning workflows.
 
----
+Currently preparing for GSoC, exploring open source contributions, and grinding toward FAANG-level engineering roles. I care about writing good code, shipping fast, and continuously improving.
 
-### 📊 LeetCode Progress
+- 🎓 &nbsp;B.Tech in Computer Science — Final Year
+- 📍 &nbsp;India
+- 🌐 &nbsp;Portfolio — [prs-os-git-main-premrajeshs-projects.vercel.app](https://prs-os-git-main-premrajeshs-projects.vercel.app/)
+- 📬 &nbsp;[work.sargaraprem@gmail.com](mailto:work.sargaraprem@gmail.com)
 
-[![LeetCode card](https://leetcard.jacoblin.cool/Sargara_Prem?theme=dark&font=Karla)](https://leetcode.com/Sargara_Prem)
-
----
-
-### 📈 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PREMRAJESH&show_icons=true&theme=radical&hide_border=true" width="45%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PREMRAJESH&theme=radical&hide_border=true" width="45%" />
-</p>
+<br/>
 
 ---
 
+## 🚀 Featured Projects
 
-### 🌐 Connect With Me
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/prem-sargara-4a802723a/)  
-[![Email](https://img.shields.io/badge/Gmail-grey?logo=gmail&style=for-the-badge)](mailto:work.sargaraprem@gmail.com)  
+### 🧠 StudyFlow &nbsp;[![Live](https://img.shields.io/badge/LIVE-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://studyflow-aii.vercel.app/)
+
+> AI-powered study planner & productivity platform
+
+- 📅 Optimized schedules via **Google Gemini AI**
+- 💬 Intelligent **study chatbot** assistant
+- 🍅 **Pomodoro** session tracker
+- 📄 **PDF syllabus parser** + deep analytics
+
+**Stack:** `Next.js 16` `Supabase` `Tailwind` `Gemini AI`
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PREMRAJESH/StudyFlow)
+
+</td>
+<td width="50%" valign="top">
+
+### 💬 NimbusX
+
+> End-to-end encrypted real-time messaging platform
+
+- 🔐 **E2E encryption** for secure communication
+- 😊 Emoji support & **media preview**
+- ⚡ Real-time powered by **Firebase**
+- 🎨 Clean, fully responsive UI
+
+**Stack:** `Firebase` `JavaScript` `HTML` `CSS`
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PREMRAJESH/NimbusX)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 Academic Archive
+
+> Full-stack research publication management system
+
+- 📝 Manuscript **submission & admin review**
+- 🔐 Secure **authentication** + full CRUD
+- 🌐 Public access to research papers
+- 🎓 Designed for scholarly communities
+
+**Stack:** `PHP` `MySQL` `Tailwind CSS`
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PREMRAJESH/Academic-Archive)
+
+</td>
+<td width="50%" valign="top">
+
+### 🖥️ PRS_OS &nbsp;[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=flat-square&logo=vercel&logoColor=white)](https://prs-os-git-main-premrajeshs-projects.vercel.app/)
+
+> My personal portfolio — an OS-inspired UI experience
+
+- 🪟 Full **desktop environment** in the browser
+- ⚡ **97.2% TypeScript** — blazing-fast performance
+- 🎨 Clean, interactive UI powered by **Next.js**
+
+**Stack:** `Next.js` `TypeScript` `Tailwind CSS`
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PREMRAJESH/PRS_OS)
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ---
 
-<p align="center"><b>⭐ Thanks for visiting! Let’s build something worthy 💻⚡</b></p>
+## 🧰 Tech Stack
+
+<div align="center">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=c,cpp,java,python,php,js,ts&theme=dark" />
+
+<br/><br/>
+
+**Backend & Databases**
+
+<img src="https://skillicons.dev/icons?i=nodejs,django,mysql,postgres,mongodb,redis,firebase,supabase&theme=dark" />
+
+<br/><br/>
+
+**Frontend & Tooling**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,git,github,linux,vercel&theme=dark" />
+
+</div>
+
+<br/>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=PREMRAJESH&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&include_all_commits=true&count_private=true" />
+&nbsp;
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PREMRAJESH&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=8b949e&langs_count=8" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=PREMRAJESH&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58A6FF&fire=ff6b6b&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8b949e" width="55%" />
+
+</div>
+
+<br/>
+
+---
+
+## 🧩 LeetCode Progress
+
+<div align="center">
+
+<a href="https://leetcode.com/u/Sargara_Prem/" target="_blank">
+  <img src="https://leetcard.jacoblin.cool/Sargara_Prem?theme=dark&font=JetBrains+Mono&ext=heatmap&border=0&radius=10&site=com" />
+</a>
+
+</div>
+
+<br/>
+
+---
+
+## 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=PREMRAJESH&theme=github-compact&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true" width="95%" />
+
+</div>
+
+<br/>
+
+---
+
+## 🌱 Currently Leveling Up
+
+| Area | What I'm doing |
+|------|----------------|
+| 🤖 **AI × DevOps** | Integrating LLMs into real developer workflows |
+| 📡 **Real-time Systems** | Deep-diving WebSockets, Firestore & live apps |
+| 🏗️ **System Design** | Studying HLD/LLD for FAANG-level interviews |
+| 🌍 **Open Source** | GSoC prep — exploring DevTools & ML projects |
+| 🏆 **DSA** | Daily LeetCode + Codeforces grinding |
+
+<br/>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a2332,100:0d1117&height=130&section=footer&text=Let%E2%80%99s+build+something+worthy+%E2%9A%A1&fontSize=18&fontColor=58A6FF&fontAlignY=65&animation=fadeIn" />
+
+</div>
