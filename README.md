@@ -197,13 +197,14 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 
 ## 🌱 Currently Leveling Up
 
-| Area | What I'm doing |
-|------|----------------|
-| 🤖 **AI × DevOps** | Integrating LLMs into real developer workflows |
-| 📡 **Real-time Systems** | Deep-diving WebSockets, Firestore & live apps |
-| 🏗️ **System Design** | Studying HLD/LLD for MAANG-level interviews |
-| 🌍 **Open Source** | GSoC prep — exploring DevTools & ML projects |
-| 🏆 **DSA** | Daily LeetCode + Codeforces grinding |
+| Area                     | What I'm doing                                            |
+| ------------------------ | --------------------------------------------------------- |
+| 🤖 **AI × DevOps**       | Exploring LLM integrations in real developer workflows    |
+| 📡 **Real-time Systems** | Building with WebSockets, Firestore & live applications   |
+| 🏗️ **System Design**    | Learning HLD/LLD for scalable system architecture         |
+| 🌍 **Open Source**       | Preparing for GSoC & contributing to DevTools/ML projects |
+| 🏆 **DSA**               | Practicing LeetCode & Codeforces consistently             |
+
 
 <br/>
 
