@@ -1,0 +1,116 @@
+<svg width="100%" viewBox="0 0 680 220" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Prem Sargara - space banner</title>
+<desc>Outer space banner with stars for GitHub profile README</desc>
+<defs>
+  <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="starGlow">
+    <feGaussianBlur stdDeviation="1.2" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<!-- Deep space background -->
+<rect width="680" height="220" fill="#050510" rx="0"/>
+
+<!-- Tiny stars - dim layer -->
+<g fill="#ffffff" opacity="0.35">
+  <circle cx="12" cy="8" r="0.6"/><circle cx="45" cy="22" r="0.5"/><circle cx="78" cy="5" r="0.7"/>
+  <circle cx="103" cy="30" r="0.5"/><circle cx="133" cy="14" r="0.6"/><circle cx="160" cy="42" r="0.5"/>
+  <circle cx="188" cy="9" r="0.7"/><circle cx="215" cy="28" r="0.5"/><circle cx="249" cy="17" r="0.6"/>
+  <circle cx="278" cy="38" r="0.5"/><circle cx="304" cy="6" r="0.7"/><circle cx="335" cy="44" r="0.5"/>
+  <circle cx="368" cy="11" r="0.6"/><circle cx="398" cy="33" r="0.5"/><circle cx="427" cy="7" r="0.7"/>
+  <circle cx="455" cy="25" r="0.5"/><circle cx="483" cy="41" r="0.6"/><circle cx="510" cy="13" r="0.5"/>
+  <circle cx="539" cy="30" r="0.7"/><circle cx="568" cy="8" r="0.5"/><circle cx="597" cy="38" r="0.6"/>
+  <circle cx="624" cy="19" r="0.5"/><circle cx="651" cy="44" r="0.7"/><circle cx="668" cy="12" r="0.5"/>
+  <circle cx="22" cy="55" r="0.6"/><circle cx="58" cy="70" r="0.5"/><circle cx="88" cy="60" r="0.7"/>
+  <circle cx="117" cy="80" r="0.5"/><circle cx="148" cy="65" r="0.6"/><circle cx="174" cy="90" r="0.5"/>
+  <circle cx="203" cy="58" r="0.7"/><circle cx="232" cy="78" r="0.5"/><circle cx="260" cy="68" r="0.6"/>
+  <circle cx="292" cy="85" r="0.5"/><circle cx="319" cy="60" r="0.7"/><circle cx="352" cy="92" r="0.5"/>
+  <circle cx="383" cy="72" r="0.6"/><circle cx="415" cy="55" r="0.5"/><circle cx="444" cy="88" r="0.7"/>
+  <circle cx="472" cy="65" r="0.5"/><circle cx="502" cy="78" r="0.6"/><circle cx="530" cy="58" r="0.5"/>
+  <circle cx="558" cy="90" r="0.7"/><circle cx="585" cy="63" r="0.5"/><circle cx="613" cy="82" r="0.6"/>
+  <circle cx="640" cy="55" r="0.5"/><circle cx="667" cy="78" r="0.7"/>
+  <circle cx="35" cy="145" r="0.6"/><circle cx="68" cy="162" r="0.5"/><circle cx="98" cy="148" r="0.7"/>
+  <circle cx="127" cy="175" r="0.5"/><circle cx="159" cy="155" r="0.6"/><circle cx="186" cy="180" r="0.5"/>
+  <circle cx="218" cy="143" r="0.7"/><circle cx="244" cy="170" r="0.5"/><circle cx="273" cy="158" r="0.6"/>
+  <circle cx="303" cy="183" r="0.5"/><circle cx="333" cy="147" r="0.7"/><circle cx="362" cy="172" r="0.5"/>
+  <circle cx="392" cy="160" r="0.6"/><circle cx="422" cy="143" r="0.5"/><circle cx="449" cy="178" r="0.7"/>
+  <circle cx="480" cy="155" r="0.5"/><circle cx="510" cy="173" r="0.6"/><circle cx="538" cy="148" r="0.5"/>
+  <circle cx="567" cy="180" r="0.7"/><circle cx="596" cy="158" r="0.5"/><circle cx="624" cy="175" r="0.6"/>
+  <circle cx="651" cy="145" r="0.5"/><circle cx="671" cy="172" r="0.7"/>
+  <circle cx="18" cy="200" r="0.6"/><circle cx="52" cy="208" r="0.5"/><circle cx="84" cy="195" r="0.7"/>
+  <circle cx="114" cy="212" r="0.5"/><circle cx="143" cy="200" r="0.6"/><circle cx="172" cy="215" r="0.5"/>
+  <circle cx="200" cy="193" r="0.7"/><circle cx="234" cy="210" r="0.5"/><circle cx="265" cy="202" r="0.6"/>
+  <circle cx="295" cy="215" r="0.5"/><circle cx="328" cy="196" r="0.7"/><circle cx="358" cy="212" r="0.5"/>
+  <circle cx="392" cy="200" r="0.6"/><circle cx="424" cy="215" r="0.5"/><circle cx="455" cy="193" r="0.7"/>
+  <circle cx="487" cy="210" r="0.5"/><circle cx="518" cy="204" r="0.6"/><circle cx="548" cy="215" r="0.5"/>
+  <circle cx="578" cy="197" r="0.7"/><circle cx="608" cy="212" r="0.5"/><circle cx="638" cy="200" r="0.6"/>
+  <circle cx="665" cy="215" r="0.5"/>
+</g>
+
+<!-- Medium stars -->
+<g fill="#ffffff" opacity="0.65">
+  <circle cx="30" cy="18" r="1"/><circle cx="89" cy="47" r="0.9"/><circle cx="152" cy="22" r="1.1"/>
+  <circle cx="221" cy="50" r="0.9"/><circle cx="287" cy="15" r="1"/><circle cx="349" cy="52" r="0.9"/>
+  <circle cx="413" cy="20" r="1.1"/><circle cx="477" cy="48" r="0.9"/><circle cx="542" cy="18" r="1"/>
+  <circle cx="604" cy="52" r="0.9"/><circle cx="659" cy="28" r="1.1"/>
+  <circle cx="55" cy="100" r="1"/><circle cx="120" cy="118" r="0.9"/><circle cx="185" cy="95" r="1.1"/>
+  <circle cx="255" cy="122" r="0.9"/><circle cx="320" cy="97" r="1"/><circle cx="460" cy="120" r="0.9"/>
+  <circle cx="525" cy="100" r="1.1"/><circle cx="590" cy="115" r="0.9"/><circle cx="648" cy="95" r="1"/>
+  <circle cx="42" cy="188" r="1"/><circle cx="108" cy="205" r="0.9"/><circle cx="175" cy="185" r="1.1"/>
+  <circle cx="280" cy="207" r="0.9"/><circle cx="345" cy="188" r="1"/><circle cx="435" cy="205" r="0.9"/>
+  <circle cx="500" cy="185" r="1.1"/><circle cx="560" cy="208" r="0.9"/><circle cx="622" cy="190" r="1"/>
+</g>
+
+<!-- Bright glowing stars -->
+<g filter="url(#starGlow)">
+  <circle cx="60" cy="35" r="1.5" fill="#ffffff" opacity="0.95"/>
+  <circle cx="195" cy="48" r="1.3" fill="#cceeff" opacity="0.95"/>
+  <circle cx="310" cy="26" r="1.6" fill="#ffffff" opacity="0.9"/>
+  <circle cx="430" cy="52" r="1.3" fill="#ffe0cc" opacity="0.9"/>
+  <circle cx="555" cy="35" r="1.5" fill="#ffffff" opacity="0.95"/>
+  <circle cx="635" cy="60" r="1.3" fill="#cceeff" opacity="0.9"/>
+  <circle cx="22" cy="118" r="1.4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="155" cy="130" r="1.5" fill="#ffe0cc" opacity="0.95"/>
+  <circle cx="520" cy="125" r="1.3" fill="#ffffff" opacity="0.9"/>
+  <circle cx="662" cy="140" r="1.5" fill="#cceeff" opacity="0.95"/>
+  <circle cx="88" cy="195" r="1.4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="375" cy="202" r="1.3" fill="#ffe0cc" opacity="0.9"/>
+  <circle cx="488" cy="198" r="1.5" fill="#ffffff" opacity="0.95"/>
+  <circle cx="610" cy="205" r="1.3" fill="#cceeff" opacity="0.9"/>
+</g>
+
+<!-- 4-point sparkles -->
+<g fill="#ffffff" opacity="0.85">
+  <path d="M71 75 L71.8 78 L71 81 L70.2 78 Z"/>
+  <path d="M68 78 L71 78.8 L74 78 L71 77.2 Z"/>
+  <path d="M581 45 L581.8 48 L581 51 L580.2 48 Z"/>
+  <path d="M578 48 L581 48.8 L584 48 L581 47.2 Z"/>
+  <path d="M164 169 L164.8 172 L164 175 L163.2 172 Z"/>
+  <path d="M161 172 L164 172.8 L167 172 L164 171.2 Z"/>
+  <path d="M489 19 L489.8 22 L489 25 L488.2 22 Z"/>
+  <path d="M486 22 L489 22.8 L492 22 L489 21.2 Z"/>
+</g>
+
+<!-- Shooting star 1 -->
+<line x1="480" y1="32" x2="530" y2="48" stroke="#ffffff" stroke-width="0.8" opacity="0.55"/>
+<circle cx="480" cy="32" r="1.2" fill="#ffffff" opacity="0.9"/>
+
+<!-- Shooting star 2 -->
+<line x1="140" y1="62" x2="178" y2="73" stroke="#cceeff" stroke-width="0.7" opacity="0.45"/>
+<circle cx="140" cy="62" r="1" fill="#cceeff" opacity="0.8"/>
+
+<!-- Name glow bloom -->
+<ellipse cx="340" cy="100" rx="230" ry="62" fill="url(#glow1)"/>
+
+<!-- Name shadow/depth -->
+<text x="342" y="110" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="#58A6FF" opacity="0.1" letter-spacing="2">Prem Sargara</text>
+<!-- Main name -->
+<text x="340" y="108" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="#58A6FF" letter-spacing="2">Prem Sargara</text>
+
+<!-- Subtitle -->
+<text x="340" y="142" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#8b949e" letter-spacing="2.5">Final Year CS Student  •  Full-Stack + AI Developer  •  MAANG Aspirant</text>
+</svg>
