@@ -89,18 +89,18 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 <tr>
 <td width="50%" valign="top">
 
-### 📚 Academic Archive
+### 🧬 NeuroScan
 
-> Full-stack research publication management system
+> AI-powered brain tumor detection web app for MRI analysis
 
-- 📝 Manuscript **submission & admin review**
-- 🔐 Secure **authentication** + full CRUD
-- 🌐 Public access to research papers
-- 🎓 Designed for scholarly communities
+- 🔬 **MRI image analysis** with deep learning classification
+- 🌡️ **Grad-CAM explainability** — visual heatmap predictions
+- 📋 **Prediction history tracking** for session review
+- 🧪 Designed for accessible, interpretable medical AI
 
-**Stack:** `PHP` `MySQL` `Tailwind CSS`
+**Stack:** `Python` `Flask` `TensorFlow` `Grad-CAM` `OpenCV`
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PREMRAJESH/Academic-Archive)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PREMRAJESH/NeuroScan)
 
 </td>
 <td width="50%" valign="top">
@@ -176,18 +176,6 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 <a href="https://leetcode.com/u/Sargara_Prem/" target="_blank">
   <img src="https://leetcard.jacoblin.cool/Sargara_Prem?theme=dark&font=JetBrains+Mono&ext=heatmap&border=0&radius=10&site=com" />
 </a>
-
-</div>
-
-<br/>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PREMRAJESH&theme=github-compact&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff&area=true&hide_border=true" width="95%" />
 
 </div>
 
