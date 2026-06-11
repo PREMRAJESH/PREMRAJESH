@@ -42,7 +42,7 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 
 - 🎓 &nbsp;B.Tech in Computer Science — Final Year
 - 📍 &nbsp;India
-- 🌐 &nbsp;Portfolio — [prs-os-git-main-premrajeshs-projects.vercel.app](https://prs-os-git-main-premrajeshs-projects.vercel.app/)
+- 🌐 &nbsp;Portfolio — [prs-os](https://prs-os.vercel.app/)
 - 📬 &nbsp;[sargarapremrajesh@gmail.com](mailto:sargarapremrajesh@gmail.com)
 
 <br/>
