@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" />
 </a>
 &nbsp;
-<a href="https://prs-os-git-main-premrajeshs-projects.vercel.app/" target="_blank">
+<a href="https://prs-os.vercel.app/" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
