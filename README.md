@@ -105,7 +105,7 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 </td>
 <td width="50%" valign="top">
 
-### 🖥️ PRS_OS &nbsp;[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=flat-square&logo=vercel&logoColor=white)](https://prs-os-git-main-premrajeshs-projects.vercel.app/)
+### 🖥️ PRS_OS &nbsp;[![Portfolio](https://img.shields.io/badge/PORTFOLIO-000000?style=flat-square&logo=vercel&logoColor=white)](https://prs-os.vercel.app/)
 
 > My personal portfolio — an OS-inspired UI experience
 
