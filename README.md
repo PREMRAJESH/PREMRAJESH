@@ -169,20 +169,6 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 
 ---
 
-## 🧩 LeetCode Progress
-
-<div align="center">
-
-<a href="https://leetcode.com/u/Sargara_Prem/" target="_blank">
-  <img src="https://leetcard.jacoblin.cool/Sargara_Prem?theme=dark&font=JetBrains+Mono&ext=heatmap&border=0&radius=10&site=com" />
-</a>
-
-</div>
-
-<br/>
-
----
-
 ## 🌱 Currently Leveling Up
 
 | Area                     | What I'm doing                                            |
