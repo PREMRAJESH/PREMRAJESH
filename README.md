@@ -167,6 +167,15 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 
 <br/>
 
+<!-- NEW: animated contribution snake — requires the one-time GitHub Actions
+     setup (snake.yml) shared separately. Until that workflow has run once,
+     this image will 404; that's expected. -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</div>
+
+<br/>
+
 ---
 
 ## 🌱 Currently Leveling Up
