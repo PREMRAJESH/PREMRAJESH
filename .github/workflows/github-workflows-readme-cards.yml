@@ -1,9 +1,8 @@
 name: Update README cards
-
 on:
   schedule:
-    - cron: "0 3 * * *"   # daily at 03:00 UTC
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+    - cron: "0 3 * * *" # daily at 03:00 UTC
+  workflow_dispatch: # lets you trigger it manually from the Actions tab
   push:
     paths:
       - ".github/workflows/readme-cards.yml"
@@ -13,32 +12,31 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - uses: actions/checkout@v4
 
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&hide_border=true
+          options: "username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&hide_border=true"
           path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&bg_color=0d1117&title_color=58A6FF&text_color=8b949e&hide_border=true
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=github_dark&bg_color=0d1117&title_color=58A6FF&text_color=8b949e&hide_border=true"
           path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Generate streak stats card
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=${{ github.repository_owner }}&theme=github-dark-blue&background=0d1117&ring=58A6FF&fire=ff6b6b&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8b949e
+          options: "user=${{ github.repository_owner }}&theme=github-dark-blue&background=0d1117&ring=58A6FF&fire=ff6b6b&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8b949e&hide_border=true&timezone=Asia/Kolkata"
           path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Commit cards
         run: |
