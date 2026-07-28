@@ -155,13 +155,13 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=PREMRAJESH&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&include_all_commits=true&count_private=true" />
+<img height="180em" src="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/main/profile/stats.svg" />
 &nbsp;
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=PREMRAJESH&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=8b949e&langs_count=8" />
+<img height="180em" src="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/main/profile/top-langs.svg" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=PREMRAJESH&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58A6FF&fire=ff6b6b&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8b949e" width="55%" />
+<img src="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/main/profile/streak.svg" width="55%" />
 
 </div>
 
@@ -184,10 +184,9 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 | ------------------------ | --------------------------------------------------------- |
 | 🤖 **AI × DevOps**       | Exploring LLM integrations in real developer workflows    |
 | 📡 **Real-time Systems** | Building with WebSockets, Firestore & live applications   |
-| 🏗️ **System Design**    | Learning HLD/LLD for scalable system architecture         |
+| 🏗️ **System Design**     | Learning HLD/LLD for scalable system architecture         |
 | 🌍 **Open Source**       | Preparing for GSoC & contributing to DevTools/ML projects |
 | 🏆 **DSA**               | Practicing LeetCode & Codeforces consistently             |
-
 
 <br/>
 
