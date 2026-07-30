@@ -122,7 +122,7 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 </table>
 
 <br/>
-
+.
 ---
 
 ## 🧰 Tech Stack
