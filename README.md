@@ -140,7 +140,6 @@ Currently preparing for GSoC, exploring open source contributions, and grinding 
 <img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,git,github,linux,vercel&theme=dark" alt="Frontend and Tooling" />
 
 </div>
-....
 ---
 
 ## 📊 GitHub Stats
