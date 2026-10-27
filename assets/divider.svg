@@ -1,0 +1,29 @@
+<svg width="1200" height="28" viewBox="0 0 1200 28" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="lineBase" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58A6FF" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#58A6FF" stop-opacity="0.45"/>
+      <stop offset="0.5" stop-color="#A371F7" stop-opacity="0.55"/>
+      <stop offset="0.82" stop-color="#58A6FF" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#58A6FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0" y1="0" x2="220" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#79C0FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#79C0FF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A371F7" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="lineClip">
+      <rect x="80" y="10" width="1040" height="8"/>
+    </clipPath>
+  </defs>
+
+  <rect x="80" y="13" width="1040" height="1.5" rx="0.75" fill="url(#lineBase)"/>
+
+  <g clip-path="url(#lineClip)">
+    <rect x="-220" y="11" width="220" height="5" fill="url(#shine)">
+      <animate attributeName="x" values="-220;1200" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

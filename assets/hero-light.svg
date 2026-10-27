@@ -1,0 +1,170 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Prem Sargara &#8212; Software Engineer</title>
+  <desc id="heroDesc">Full-stack and AI engineer from Gujarat, India, building production multi-agent systems.</desc>
+
+  <defs>
+    <linearGradient id="panelBg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F3F6FA"/>
+      <stop offset="0.55" stop-color="#FBFCFE"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+
+    <clipPath id="panelClip">
+      <rect width="1200" height="340" rx="20"/>
+    </clipPath>
+
+    <linearGradient id="nameGrad" x1="64" y1="130" x2="540" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0550AE"/>
+      <stop offset="0.55" stop-color="#0969DA"/>
+      <stop offset="1" stop-color="#8250DF"/>
+      <animate attributeName="x1" values="64;190;64" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="540;410;540" dur="11s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="64" y1="0" x2="112" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0969DA"/>
+      <stop offset="1" stop-color="#8250DF"/>
+    </linearGradient>
+
+    <radialGradient id="glowBlue" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0969DA" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0969DA" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8250DF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#8250DF" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="termBg" x1="760" y1="64" x2="1144" y2="276" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1B2430"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#0969DA" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+
+    <radialGradient id="gridFade" cx="0.5" cy="0.42" r="0.72">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <mask id="gridMask">
+      <rect width="1200" height="340" fill="url(#gridFade)"/>
+    </mask>
+
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0B1220" flood-opacity="0.22"/>
+    </filter>
+
+    <clipPath id="termClip">
+      <rect x="760" y="64" width="384" height="212" rx="14"/>
+    </clipPath>
+
+    <style>
+      .eyebrow { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; letter-spacing: 3.4px; }
+      .name    { font: 700 64px "Segoe UI", -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif; letter-spacing: -2.4px; }
+      .tagline { font: 400 19px "Segoe UI", -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif; }
+      .pill    { font: 500 12.5px "Segoe UI", -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif; }
+      .mono    { font: 400 12.5px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .termbar { font: 500 10.5px ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; letter-spacing: 0.4px; }
+
+      .pulse   { animation: pulse 2.6s ease-in-out infinite; }
+      .float-a { animation: floatA 7s ease-in-out infinite; }
+      .float-b { animation: floatB 9s ease-in-out infinite; }
+      .blink   { animation: blink 1.15s steps(1, end) infinite; }
+
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+      @keyframes floatA { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+      @keyframes floatB { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(7px); } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#panelClip)">
+    <rect width="1200" height="340" fill="url(#panelBg)"/>
+
+  <!-- ambient light -->
+  <ellipse cx="150" cy="20" rx="440" ry="250" fill="url(#glowBlue)"/>
+  <ellipse cx="1030" cy="300" rx="380" ry="230" fill="url(#glowPurple)"/>
+
+  <!-- grid -->
+  <rect width="1200" height="340" fill="url(#grid)" mask="url(#gridMask)"/>
+
+  <!-- accent rule -->
+  <rect x="64" y="66" width="46" height="2" rx="1" fill="url(#accentGrad)"/>
+
+  <!-- left: identity -->
+  <text x="64" y="99" class="eyebrow" fill="#0969DA">SOFTWARE ENGINEER &#183; AI SYSTEMS</text>
+
+  <text x="61" y="168" class="name" fill="url(#nameGrad)">Prem Sargara</text>
+
+  <text x="64" y="209" class="tagline" fill="#57606A">I build full-stack products and multi-agent AI systems that ship.</text>
+
+  <g>
+    <rect x="64" y="236" width="204" height="36" rx="18" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <circle cx="86" cy="254" r="4.5" fill="#1A7F37" class="pulse"/>
+    <text x="101" y="258.5" class="pill" fill="#24292F">Open to SDE / AI roles</text>
+  </g>
+
+  <g>
+    <rect x="280" y="236" width="146" height="36" rx="18" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="353" y="258.5" class="pill" fill="#24292F" text-anchor="middle">Gujarat, India</text>
+  </g>
+
+  <!-- accent particles -->
+  <circle cx="712" cy="88" r="2.4" fill="#0969DA" opacity="0.65" class="float-a"/>
+  <circle cx="700" cy="276" r="1.8" fill="#8250DF" opacity="0.7" class="float-b"/>
+  <circle cx="1172" cy="300" r="2.2" fill="#0969DA" opacity="0.45" class="float-a"/>
+
+  <!-- right: terminal -->
+  <g filter="url(#cardShadow)">
+    <rect x="760" y="64" width="384" height="212" rx="14" fill="url(#termBg)" stroke="#30363D"/>
+  </g>
+
+  <g clip-path="url(#termClip)">
+    <rect x="760" y="64" width="384" height="34" fill="#161B22"/>
+    <path d="M760 98H1144" stroke="#21262D"/>
+  </g>
+
+  <circle cx="784" cy="81" r="4.5" fill="#FF5F56"/>
+  <circle cx="799" cy="81" r="4.5" fill="#FFBD2E"/>
+  <circle cx="814" cy="81" r="4.5" fill="#27C93F"/>
+  <text x="1120" y="85" class="termbar" fill="#8B949E" text-anchor="end">prem@fairlens: ~</text>
+
+  <g class="mono">
+    <text x="784" y="131">
+      <tspan fill="#3FB950">$</tspan>
+      <tspan x="802" fill="#C9D1D9">npm run ship</tspan>
+    </text>
+    <rect x="897" y="120" width="7" height="14" rx="1" fill="#58A6FF" class="blink"/>
+
+    <text x="784" y="161">
+      <tspan fill="#3FB950">&#10003;</tspan>
+      <tspan x="804" fill="#8B949E">panel</tspan>
+      <tspan x="1120" text-anchor="end" fill="#C9D1D9">3 agents in parallel</tspan>
+    </text>
+
+    <text x="784" y="189">
+      <tspan fill="#3FB950">&#10003;</tspan>
+      <tspan x="804" fill="#8B949E">audit</tspan>
+      <tspan x="1120" text-anchor="end" fill="#C9D1D9">8 bias classes</tspan>
+    </text>
+
+    <text x="784" y="217">
+      <tspan fill="#3FB950">&#10003;</tspan>
+      <tspan x="804" fill="#8B949E">verdict</tspan>
+      <tspan x="1120" text-anchor="end" fill="#C9D1D9">debiased</tspan>
+    </text>
+
+    <text x="784" y="253">
+      <tspan fill="#58A6FF">&#8594;</tspan>
+      <tspan x="804" fill="#58A6FF">deployed</tspan>
+      <tspan x="1120" text-anchor="end" fill="#79C0FF">4.2s</tspan>
+    </text>
+  </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="339" rx="19.5" fill="none" stroke="#D0D7DE"/>
+</svg>
