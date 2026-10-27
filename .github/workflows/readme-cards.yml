@@ -23,66 +23,34 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # The workflow uses the repository's GITHUB_TOKEN, which cannot read
-      # private contribution data. Those flags caused the "Resource not
-      # accessible by integration" error cards, so they are intentionally omitted.
-      - name: Generate stats card
-        continue-on-error: true
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&hide_border=true&rank_icon=github&custom_title=GitHub%20Stats"
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card
-        continue-on-error: true
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: top-langs
-          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=jupyter%20notebook&theme=github_dark&bg_color=0d1117&title_color=58A6FF&text_color=8b949e&hide_border=true"
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate streak card
-        continue-on-error: true
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          options: "user=${{ github.repository_owner }}&theme=github-dark-blue&background=0d1117&ring=58A6FF&fire=ff6b6b&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8b949e&hide_border=true&timezone=Asia/Kolkata&hide_current_streak=true"
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # Safety net: if an upstream action breaks, regenerate the same cards from
-      # the hosted service. A failed card must never be committed.
-      - name: Repair cards from hosted service
+      # Cards are rendered by the same public services the README used to hotlink,
+      # then committed. Visitors load local SVGs, so a service outage can never
+      # break the profile; the next run simply refreshes the files again.
+      - name: Generate cards
         run: |
           set -euo pipefail
 
-          is_valid() {
-            [ -s "$1" ] && ! grep -qiE "something went wrong|resource not accessible|forbidden|internal server error" "$1"
-          }
+          owner="${GITHUB_REPOSITORY_OWNER}"
+          fetch=(curl -fsSL --retry 3 --retry-delay 2 --max-time 45 -A "Mozilla/5.0")
 
-          hosted_stats="https://github-readme-stats.vercel.app/api?username=${GITHUB_REPOSITORY_OWNER}&show_icons=true&theme=github_dark&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&hide_border=true&rank_icon=github&custom_title=GitHub%20Stats"
-          hosted_langs="https://github-readme-stats.vercel.app/api/top-langs/?username=${GITHUB_REPOSITORY_OWNER}&layout=compact&langs_count=8&hide=jupyter%20notebook&theme=github_dark&bg_color=0d1117&title_color=58A6FF&text_color=8b949e&hide_border=true"
-          hosted_streak="https://streak-stats.demolab.com?user=${GITHUB_REPOSITORY_OWNER}&theme=github-dark-blue&background=0d1117&ring=58A6FF&fire=ff6b6b&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8b949e&hide_border=true&timezone=Asia/Kolkata&hide_current_streak=true"
+          "${fetch[@]}" \
+            "https://github-readme-stats.vercel.app/api?username=${owner}&show_icons=true&theme=github_dark&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=8b949e&hide_border=true&rank_icon=github&custom_title=GitHub%20Stats" \
+            -o profile/stats.svg
 
-          if ! is_valid profile/stats.svg; then
-            echo "::warning::Local stats card failed; falling back to the hosted card."
-            curl -fsSL --retry 3 --max-time 30 -A "Mozilla/5.0" "$hosted_stats" -o profile/stats.svg
-          fi
+          "${fetch[@]}" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=${owner}&layout=compact&langs_count=8&hide=jupyter%20notebook&theme=github_dark&bg_color=0d1117&title_color=58A6FF&text_color=8b949e&hide_border=true" \
+            -o profile/top-langs.svg
 
-          if ! is_valid profile/top-langs.svg; then
-            echo "::warning::Local languages card failed; falling back to the hosted card."
-            curl -fsSL --retry 3 --max-time 30 -A "Mozilla/5.0" "$hosted_langs" -o profile/top-langs.svg
-          fi
+          "${fetch[@]}" \
+            "https://streak-stats.demolab.com?user=${owner}&theme=github-dark-blue&background=0d1117&ring=58A6FF&fire=ff6b6b&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8b949e&hide_border=true&timezone=Asia/Kolkata&hide_current_streak=true" \
+            -o profile/streak.svg
 
-          if ! is_valid profile/streak.svg; then
-            echo "::warning::Local streak card failed; falling back to the hosted card."
-            curl -fsSL --retry 3 --max-time 30 -A "Mozilla/5.0" "$hosted_streak" -o profile/streak.svg
-          fi
+      - name: Validate cards
+        run: |
+          set -euo pipefail
 
           for card in profile/stats.svg profile/top-langs.svg profile/streak.svg; do
-            if ! is_valid "$card"; then
+            if [ ! -s "$card" ] || grep -qiE "something went wrong|resource not accessible|forbidden|internal server error" "$card"; then
               echo "::error file=$card::Card generation failed. Keeping the previous committed version."
               exit 1
             fi
