@@ -39,6 +39,12 @@ The two projects I'm proudest of take opposite approaches on purpose. **FairLens
 - 🎯 &nbsp;**Open to** — SDE / AI engineering roles and serious open-source work
 - 📬 &nbsp;**Reach me** — [sargarapremrajesh@gmail.com](mailto:sargarapremrajesh@gmail.com)
 
+<div align="center">
+
+**1,000+** welfare schemes modeled &nbsp;·&nbsp; **5** agents per verdict &nbsp;·&nbsp; **8** bias classes audited &nbsp;·&nbsp; **121** tests passing
+
+</div>
+
 ## Tech Stack
 
 <div align="center">
@@ -73,6 +79,8 @@ The two projects I'm proudest of take opposite approaches on purpose. **FairLens
 <tr>
 <td width="50%" valign="top">
 
+<a href="https://fairlens-verdict.vercel.app"><img src="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/main/assets/projects/fairlens.jpg" alt="FairLens interface: five-agent review pipeline on the left, candidate input on the right" width="470" /></a>
+
 ### FairLens
 
 *Multi-agent hiring panel with real-time bias auditing*
@@ -91,6 +99,8 @@ Three expert agents evaluate a candidate in parallel. A fourth watches their rea
 
 </td>
 <td width="50%" valign="top">
+
+<a href="https://yojana-saathi-seven.vercel.app"><img src="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/main/assets/projects/yojana.jpg" alt="YojanaSaathi homepage: Thousands of schemes, billions unclaimed" width="470" /></a>
 
 ### YojanaSaathi
 
@@ -171,8 +181,6 @@ A from-scratch messaging app where the security model is the product, not a feat
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/output/github-contribution-grid-snake.svg" />
   <img width="100%" src="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/output/github-contribution-grid-snake.svg" alt="Animated snake crossing the contribution graph" />
 </picture>
-
-<sub>Cards refresh daily via GitHub Actions.</sub>
 
 </div>
 
