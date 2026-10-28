@@ -39,12 +39,6 @@ The two projects I'm proudest of take opposite approaches on purpose. **FairLens
 - 🎯 &nbsp;**Open to** — SDE / AI engineering roles and serious open-source work
 - 📬 &nbsp;**Reach me** — [sargarapremrajesh@gmail.com](mailto:sargarapremrajesh@gmail.com)
 
-<div align="center">
-
-**1,000+** welfare schemes modeled &nbsp;·&nbsp; **5** agents per verdict &nbsp;·&nbsp; **8** bias classes audited &nbsp;·&nbsp; **121** tests passing
-
-</div>
-
 ## Tech Stack
 
 <div align="center">
