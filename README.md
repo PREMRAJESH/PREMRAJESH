@@ -73,8 +73,6 @@ The two projects I'm proudest of take opposite approaches on purpose. **FairLens
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://fairlens-verdict.vercel.app"><img src="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/main/assets/projects/fairlens.jpg" alt="FairLens interface: five-agent review pipeline on the left, candidate input on the right" width="470" /></a>
-
 ### FairLens
 
 *Multi-agent hiring panel with real-time bias auditing*
@@ -93,8 +91,6 @@ Three expert agents evaluate a candidate in parallel. A fourth watches their rea
 
 </td>
 <td width="50%" valign="top">
-
-<a href="https://yojana-saathi-seven.vercel.app"><img src="https://raw.githubusercontent.com/PREMRAJESH/PREMRAJESH/main/assets/projects/yojana.jpg" alt="YojanaSaathi homepage: Thousands of schemes, billions unclaimed" width="470" /></a>
 
 ### YojanaSaathi
 
